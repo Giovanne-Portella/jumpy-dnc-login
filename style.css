@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway&display=swap');
+
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgba(47, 45, 46, 255);
+
+}
+
+.img {
+    width: 175px;
+    height: 175px;
+    margin-top: -15px;
+}
+
+.jumpArea{
+    display: grid;
+    grid-auto-flow:row;
+    text-align: center;
+    margin-top: -50px;
+    }
+
+h1{
+        color: white;
+        font-size: verdana;
+        font-weight: 700;
+        font-size: 60px;
+}
+
+h3{
+    color: white;
+    font-size: verdana;
+    font-weight: 700;
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+.vec1{
+    margin-left: 25px;
+    position: absolute;
+}
+
+.vec2{
+    margin-left: 15px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.vec3{
+    margin-left: 5px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+form {
+    color: white;
+    font-family: 'Raleway';
+    font-size: 30px;
+    font-weight: 600;
+    width: 550px;
+    
+}
+
+.form-control {
+    display: grid;
+    flex-direction: column;
+    
+}
+
+form input {
+    border-radius: 10px;
+    height: 30px;
+    border: 0px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+form label {
+    margin: 20px 0px 10px 0px;
+}
+
+form input::placeholder {
+    color: rgba(57, 57, 57, 0.5);
+}
+
+
+button[type="submit"] {
+    background-color: rgba(12, 112, 242, 0.9);
+    border-radius: 10px;
+    width: 100%;
+    height: 56px;
+    font-size: 26px;
+    color: white;
+    margin-top: 100px;
+    box-shadow: 0px 6px 4px rgba(12, 112, 242, 0.25);
+    cursor: pointer;
+}
+
+.form-control.success input {
+    border: 3px solid #4ECA64;
+}
+
+.form-control.error input {
+    border: 3px solid #DB5A5A;
+}
+
+
+.form-control.success i .img-success {
+    visibility: visible;
+}
+
+.form-control.success small{
+    font-family: 'Raleway';
+    margin-left: 25px;
+    color: green;
+    visibility: visible;
+}
+
+
+.form-control.error small{
+    color: #DB5A5A;
+    visibility: visible;
+}
+
+
+.form-control i {
+    margin-right: 10px;
+    visibility: hidden;
+}
+
+.form-control small {
+    float:left;
+    visibility: hidden;
+    margin-top: -25px;
+    font-size: 14px;
+
+}
+
